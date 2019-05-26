@@ -1,0 +1,114 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2019-05-26 16:18:07 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06752260 CACHE LA POUDRE RIVER AT FORT COLLINS, CO
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   B ... Month or Day of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Gage height tidally affected
+#   8 ... Gage height actually greater than indicated value
+#   B ... Month or Day of occurrence is unknown or not exact
+#   D ... Debris, mud, or hyper-concentrated flow
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	31s	8s	23s	4s	10d	6s	8s	23s
+USGS	06752260	1975-06-19		2200	6	5.93						
+USGS	06752260	1976-08-01		5700	6	8.84						
+USGS	06752260	1977-07-25		1100	6	4.20						
+USGS	06752260	1978-06-14		2940	6	6.81						
+USGS	06752260	1979-06-17		3030	6	6.98						
+USGS	06752260	1980-05-02		3960	6	7.71	2		1980-05-25		7.80	
+USGS	06752260	1981-06-08		1930	6	5.83						
+USGS	06752260	1982-07-01		3160	6	5.65						
+USGS	06752260	1983-06-21		6660	6	8.31						
+USGS	06752260	1984-05-25		3410	6	6.34						
+USGS	06752260	1985-06-09		2270	6	4.97						
+USGS	06752260	1986-06-07		3430	6	5.15						
+USGS	06752260	1987-06-09		890	6	4.14	6					
+USGS	06752260	1988-06-11		1240	6	4.47						
+USGS	06752260	1989-05-30		720	6	5.23	6					
+USGS	06752260	1990-06-09		1800	6	6.72						
+USGS	06752260	1991-06-02		3370	6	9.15						
+USGS	06752260	1992-06-24		960	6	5.49						
+USGS	06752260	1993-06-19		2680	6	7.74						
+USGS	06752260	1994-06-01		1390	6	6.19						
+USGS	06752260	1995-06-18		3500	1,6							
+USGS	06752260	1996-06-16		2670	6	8.25	2		1996-06-06		8.43	1
+USGS	06752260	1997-06-09	11:45	3290	6	7.22						
+USGS	06752260	1998-06-04	11:45	959	6	4.70						
+USGS	06752260	1999-04-30	24:00	7710	6	10.46						
+USGS	06752260	2000-05-06	14:00	785	6	4.62						
+USGS	06752260	2001-05-30	07:45	713	6	4.44						
+USGS	06752260	2002-05-31	09:30	751	6	4.57						
+USGS	06752260	2003-05-30	10:00	2100	6	6.42						
+USGS	06752260	2004-07-01	07:00	997	6	5.00						
+USGS	06752260	2005-06-04	16:00	1720	6	6.00						
+USGS	06752260	2005-10-30	19:15	1210	6	5.31						
+USGS	06752260	2007-06-13	09:15	933	6	4.86						
+USGS	06752260	2008-06-07	05:30	1830	6	6.15						
+USGS	06752260	2009-06-22	07:30	1790	6	6.10						
+USGS	06752260	2010-06-12	13:30	4570	6	9.27						
+USGS	06752260	2011-06-09	09:45	3220	6	7.88						
+USGS	06752260	2012-07-30	01:45	764	6	4.48						
+USGS	06752260	2013-09-13	14:15	8140	6	11.56						
+USGS	06752260	2014-05-31	10:00	5860	6	9.54						
+USGS	06752260	2015-06-12	07:15	4420	6,9	8.49						
+USGS	06752260	2016-06-12	08:00	2990	6,9	7.21						
+USGS	06752260	2017-05-27	07:30	2850	6,9	7.05						

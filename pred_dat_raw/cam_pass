@@ -1,0 +1,184 @@
+#
+# File created on 2019-05-26 16:55:29 EDT
+#
+# U.S. Geological Survey
+# 
+# This file contains selected water-quality data for stations in the National Water Information 
+# System water-quality database.  Explanation of codes found in this file are followed by
+# the retrieved data.
+#
+# The data you have secured from the USGS NWISWeb database may include data that have 
+# not received Director's approval and as such are provisional and subject to revision. 
+# The data are released on the condition that neither the USGS nor the United States 
+# Government may be held liable for any damages resulting from its authorized or 
+# unauthorized use.
+#
+# To view additional data-quality attributes, output the results using these options:  
+# one result per row, expanded attributes.  Additional precautions are at:
+# https://help.waterdata.usgs.gov/tutorials/water-quality-data/help-using-the-water-quality-data-retrieval-system#Data_retrievals_precautions
+#
+#  agency_cd                   - Agency Code
+#  site_no                     - Station number
+#  sample_dt                   - Begin date
+#  sample_tm                   - Begin time
+#  sample_end_dt               - End date
+#  sample_end_tm               - End time
+#  sample_start_time_datum_cd  - Time datum
+#  tm_datum_rlbty_cd           - Time datum reliability code
+#  coll_ent_cd                 - Agency Collecting Sample Code
+#  medium_cd                   - Medium code
+#  tu_id                       - Taxonomic unit code
+#  body_part_id                - Body part code
+#  P00028                      - Agency analyzing sample, code
+#  P00403                      - pH, water, unfiltered, laboratory, standard units
+#  P00413                      - Acid neutralizing capacity, water, unfiltered, Gran titration, milligrams per liter as calcium carbonate
+#  P00600                      - Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, unfiltered, milligrams per liter
+#  P00602                      - Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, filtered, milligrams per liter
+#  P00608                      - Ammonia (NH3 + NH4+), water, filtered, milligrams per liter as nitrogen
+#  P00618                      - Nitrate, water, filtered, milligrams per liter as nitrogen
+#  P00631                      - Nitrate plus nitrite, water, filtered, milligrams per liter as nitrogen
+#  P00681                      - Organic carbon, water, filtered, milligrams per liter
+#  P00900                      - Hardness, water, milligrams per liter as calcium carbonate
+#  P00915                      - Calcium, water, filtered, milligrams per liter
+#  P00925                      - Magnesium, water, filtered, milligrams per liter
+#  P00930                      - Sodium, water, filtered, milligrams per liter
+#  P00931                      - Sodium adsorption ratio (SAR), water, number
+#  P00932                      - Sodium fraction of cations, water, percent in equivalents of major cations
+#  P00935                      - Potassium, water, filtered, milligrams per liter
+#  P00940                      - Chloride, water, filtered, milligrams per liter
+#  P00945                      - Sulfate, water, filtered, milligrams per liter
+#  P00955                      - Silica, water, filtered, milligrams per liter as SiO2
+#  P01080                      - Strontium, water, filtered, micrograms per liter
+#  P04024                      - Propachlor, water, filtered, recoverable, micrograms per liter
+#  P04028                      - Butylate, water, filtered, recoverable, micrograms per liter
+#  P04029                      - Bromacil, water, filtered, recoverable, micrograms per liter
+#  P04035                      - Simazine, water, filtered, recoverable, micrograms per liter
+#  P04037                      - Prometon, water, filtered, recoverable, micrograms per liter
+#  P04040                      - 2-Chloro-4-isopropylamino-6-amino-s-triazine, water, filtered, recoverable, micrograms per liter
+#  P04041                      - Cyanazine, water, filtered, recoverable, micrograms per liter
+#  P04095                      - Fonofos, water, filtered, recoverable, micrograms per liter
+#  P34253                      - alpha-HCH, water, filtered, recoverable, micrograms per liter
+#  P34653                      - p,p'-DDE, water, filtered, recoverable, micrograms per liter
+#  P38933                      - Chlorpyrifos, water, filtered, recoverable, micrograms per liter
+#  P39341                      - Lindane, water, filtered, recoverable, micrograms per liter
+#  P39381                      - Dieldrin, water, filtered, recoverable, micrograms per liter
+#  P39415                      - Metolachlor, water, filtered, recoverable, micrograms per liter
+#  P39532                      - Malathion, water, filtered, recoverable, micrograms per liter
+#  P39542                      - Parathion, water, filtered, recoverable, micrograms per liter
+#  P39572                      - Diazinon, water, filtered, recoverable, micrograms per liter
+#  P39632                      - Atrazine, water, filtered, recoverable, micrograms per liter
+#  P39732                      - 2,4-D, water, filtered, recoverable, micrograms per liter
+#  P39742                      - 2,4,5-T, water, filtered, recoverable, micrograms per liter
+#  P39762                      - Silvex, water, filtered, recoverable, micrograms per liter
+#  P46342                      - Alachlor, water, filtered, recoverable, micrograms per liter
+#  P50286                      - Mercury, water, unfiltered, nanograms per liter
+#  P50624                      - Absorbance, 254 nm, water, filtered, absorbance units per centimeter
+#  P62855                      - Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, unfiltered, analytically determined, milligrams per liter
+#  P63162                      - Specific UV Absorbance, 254 nm, water, filtered, 1 cm path length, calculated, liter per (milligram of dissolved organic carbon * meter)
+#  P70301                      - Dissolved solids, water, filtered, sum of constituents, milligrams per liter
+#  P70303                      - Dissolved solids, water, filtered, short tons per acre-foot
+#  P71846                      - Ammonia (NH3 + NH4+), water, filtered, milligrams per liter as NH4
+#  P81026                      - Water content of snow, inches
+#  P82082                      - delta hydrogen-2/hydrogen-1, water, unfiltered, per mil
+#  P82085                      - delta oxygen-18/oxygen-16, water, unfiltered, per mil
+#  P82086                      - delta sulfur-34/sulfur-32, water, unfiltered, per mil
+#  P82300                      - Snow depth, inches
+#  P82630                      - Metribuzin, water, filtered, recoverable, micrograms per liter
+#  P82660                      - 2,6-Diethylaniline, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82661                      - Trifluralin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82663                      - Ethalfluralin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82664                      - Phorate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82665                      - Terbacil, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82666                      - Linuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82667                      - Methyl parathion, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82668                      - EPTC, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82669                      - Pebulate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82670                      - Tebuthiuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82671                      - Molinate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82672                      - Ethoprop, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82673                      - Benfluralin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82674                      - Carbofuran, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82675                      - Terbufos, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82676                      - Propyzamide, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82677                      - Disulfoton, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82678                      - Triallate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82679                      - Propanil, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82680                      - Carbaryl, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82681                      - Thiobencarb, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82682                      - DCPA, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82683                      - Pendimethalin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82684                      - Napropamide, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82685                      - Propargite, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82686                      - Azinphos-methyl, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P82687                      - cis-Permethrin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter
+#  P90095                      - Specific conductance, water, unfiltered, laboratory, microsiemens per centimeter at 25 degrees Celsius
+#  P91063                      - Diazinon-d10, surrogate, water, filtered (0.7 micron glass fiber filter), percent recovery
+#  P91064                      - Terbuthylazine, surrogate, water, filtered (0.7 micron glass fiber filter), percent recovery
+#  P91065                      - alpha-HCH-d6, surrogate, water, filtered (0.7 micron glass fiber filter), percent recovery
+#  P99111                      - Type of quality assurance data associated with sample, code
+#  P99156                      - Sulfuric acid NWIS lot number, 4.5 N (1:7), 1 mL, National Field Supply Service (NFSS) stock number Q438FLD
+#  P99857                      - Sample volume, NWQL schedule 2010, milliliters
+#
+# Description of sample_start_time_datum_cd:
+# MST  - Mountain Standard Time
+# MDT  - Mountain Daylight Time
+#
+# Description of tm_datum_rlbty_cd:
+# K  - Known
+# T  - Transferred
+#
+# Description of coll_ent_cd:
+# USGS-WRD  - U.S. Geological Survey-Water Resources Discipline
+# USGSCOWC  - USGS - Colorado Water Science Center
+#
+# Description of medium_cd:
+# OB  - Bulk deposition
+# WS  - Surface water
+#
+# Description of tu_id:
+# https://www.itis.gov/
+#
+# Description of body_part_id:
+#
+# Description of remark_cd:
+# <  - less than
+# M  - presence verified but not quantified
+#
+# Data for the following sites are included:
+#  USGS 403100105540000 CAMERON PASS SNOW SITE, CO
+#
+# WARNING:  Some spreadsheet programs do not allow more than 256 columns. This retrieval
+# may not be imported into those programs without manually editing this file.
+#
+agency_cd	site_no	sample_dt	sample_tm	sample_end_dt	sample_end_tm	sample_start_time_datum_cd	tm_datum_rlbty_cd	coll_ent_cd	medium_cd	tu_id	body_part_id	p00028	p00403	p00413	p00600	p00602	p00608	p00618	p00631	p00681	p00900	p00915	p00925	p00930	p00931	p00932	p00935	p00940	p00945	p00955	p01080	p04024	p04028	p04029	p04035	p04037	p04040	p04041	p04095	p34253	p34653	p38933	p39341	p39381	p39415	p39532	p39542	p39572	p39632	p39732	p39742	p39762	p46342	p50286	p50624	p62855	p63162	p70301	p70303	p71846	p81026	p82082	p82085	p82086	p82300	p82630	p82660	p82661	p82663	p82664	p82665	p82666	p82667	p82668	p82669	p82670	p82671	p82672	p82673	p82674	p82675	p82676	p82677	p82678	p82679	p82680	p82681	p82682	p82683	p82684	p82685	p82686	p82687	p90095	p91063	p91064	p91065	p99111	p99156	p99857
+5s	15s	10d	5d	10d	5d	3s	1s	8s	3s	11s	11s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s	12s
+USGS	403100105540000	1991-04-18	18:00			MDT	T	USGS-WRD	OB			 80020				 0.2	 0.024		 0.110		 0.80	 0.27	 0.03	 0.18	 0.09	 32	 0.04																																	 0.031																																								
+USGS	403100105540000	1992-04-11	09:30			MDT	T	USGSCOWC	OB			 80020	 5.2	 -0.42		< 0.1	 0.038	 0.122	 0.111		 0.84	 0.251	 0.051	 0.051	 0.02			 0.06	 0.47	< 0.005																														 0.049				 6.60	 50																													 6.5						
+USGS	403100105540000	1993-04-20	12:00			MDT	K	USGSCOWC	OB																																																																																											
+USGS	403100105540000	1993-04-20	16:00			MDT	T	USGS-WRD	WS			 80020																				< 0.002	< 0.0020	< 0.05	< 0.010	< 0.010	< 0.020	< 0.010	< 0.0050	< 0.0020	< 0.002	< 0.0020	< 0.0080	< 0.020	< 0.005	< 0.010	< 0.008	< 0.0050	 0.004	< 0.05	< 0.05	< 0.05	< 0.005													< 0.005	< 0.0020	< 0.006	< 0.005	< 0.020	< 0.010	< 0.010	< 0.010	< 0.0020	< 0.0100	< 0.010	< 0.0050	< 0.005	< 0.007	< 0.005	< 0.010	< 0.0100	< 0.020	< 0.0030	< 0.005	< 0.008	< 0.008	 0.0090	 0.007	< 0.002	< 0.010	< 0.010	< 0.010		 90.0	 108	 90.0			 953
+USGS	403100105540000	1993-04-20	16:00			MDT	K	USGSCOWC	OB				 5.0				 0.055	 0.108		 0.58	 0.30	 0.094	 0.015	 0.052	 0.04	 24	 0.04	 0.07	 0.43	 0.072																														 0.071		 -153	 -20.70	 4.60	 102																													 6.1						
+USGS	403100105540000	1994-04-08	09:30			MDT	K	USGSCOWC	OB				 5.0	 -0.59			 0.065	 0.130		 0.59	 0.37	 0.123	 0.016	 0.038	 0.03	 17	 0.04	 0.04	 0.38	 0.201																												 1	 0.00	 0.084		 -167	 -22.39	 6.10	 84																													 5.9						
+USGS	403100105540000	1995-04-06	14:15			MDT	K	USGSCOWC	OB				 5.0	 -0.52			 0.065	 0.142		 1.40	 0.42	 0.139	 0.017	 0.086	 0.06	 28	 0.05	 0.11	 0.40	 0.240	 1.4																											 1	 0.00	 0.084		 -152	 -20.61	 6.50	 67																													 5.8						
+USGS	403100105540000	1996-04-03	11:15			MST	K	USGSCOWC	OB				 5.2	 -0.24			 0.036	 0.090		 1.33	 0.28	 0.093	 0.011	 0.030	 0.02	 16	 0.053	 0.04	 0.29	 0.038	< 0.02																											M 	 0.00	 0.046		 -162	 -21.73	 7.30	 81																													 3.3						
+USGS	403100105540000	1997-03-26	10:40			MST	K	USGSCOWC	OB				 4.9	 -0.66			 0.032	 0.133		 0.60	 0.22	 0.074	 0.007	 0.032	 0.03		< 0.02	 0.05	 0.29		 1.8																											< 0.7	< 0.001	 0.041		 -168	 -22.55	 6.80	 75																													 5.7						
+USGS	403100105540000	1998-04-09	11:45			MDT	K	USGS-WRD	OB				 4.9	 -0.62			 0.056	 0.151		 0.80	 0.32	 0.110	 0.010	 0.050	 0.04	 24	 0.02	 0.07	 0.42	< 0.005	 2.0																											 1	 0.00	 0.072		 -153	 -20.83	 6.20	 65																													 6.4						
+USGS	403100105540000	1999-04-08	13:00			MDT	K	USGSCOWC	OB				 5.4	 -0.16			 0.069	 0.155		 0.70	 0.85	 0.289	 0.030	 0.089	 0.04	 18	 0.051	 0.11	 0.45	< 0.005	 0.88																											 2	 0.00	 0.089		 -148	 -20.16	 6.30	 68																													 5.5						
+USGS	403100105540000	2000-04-04	10:00			MDT	K	USGSCOWC	OB				 5.0	 -0.17			 0.072	 0.122		 0.71	 0.33	 0.100	 0.020	 0.023	 0.02	 12	 0.034	 0.03	 0.31	 0.021	 1.0																											 1	 0.00	 0.093		 -159	 -21.66		 79																													 4.1						
+USGS	403100105540000	2001-04-05	09:45			MDT	K	USGSCOWC	OB				 5.2	 -0.31			 0.090	 0.165		 0.56	 0.34	 0.120	 0.010	 0.045	 0.03	 21	 0.023	< 0.02	 0.39	 0.062	 1.0																							 1.5				< 1	< 0.002	 0.116		 -155	 -20.6		 58																													 6.1						
+USGS	403100105540000	2002-04-04	10:00			MST	K	USGSCOWC	OB				 5.3	 -0.31			 0.056	 0.177		 0.67	 0.67	 0.220	 0.030	 0.083	 0.04	 20	 0.032	 0.06	 0.39	 0.124	 1.0																							 2.6				 2	 0.00	 0.072	 14.17	 -169	 -22.5		 48																													 5.3						
+USGS	403100105540000	2003-03-26	12:05			MST	K	USGSCOWC	OB				 5.1	 -0.52			 0.059	 0.124		 0.50	 0.40	 0.110	 0.030	 0.031	 0.02	 13	 0.032	 0.03	 0.29	 0.340	 1.0																							 2.2				 1	 0.00	 0.076	 26.31	 -161	 -21.6		 91																													 5.1						
+USGS	403100105540000	2004-03-15	12:05			MST	K	USGSCOWC	OB				 5.0	 -0.57			 0.069	 0.166		 1.01	 0.34	 0.116	 0.012	 0.048	 0.04	 19	 0.078	 0.10	 0.32	< 0.005	 0.44																							 2.6				 1	 0.00	 0.089	 13.60	 -80.5	 -11.1		 52																													 6.5						
+USGS	403100105540000	2005-03-23	13:00			MST	K	USGSCOWC	OB				 5.3	 -0.28			 0.078	 0.110		 0.67	 0.43	 0.140	 0.020	 0.049	 0.03	 17	 0.080	 0.05	 0.31	< 0.005	< 0.02																							 2.3				 1	 0.00	 0.100	 20.19	 -148	 -19.6		 74																													 5.2						
+USGS	403100105540000	2006-03-31	14:00			MST	K	USGSCOWC	OB				 5.1	 -0.33			 0.061	 0.126		 0.40	 0.29	 0.100	 0.010	 0.081	 0.07	 36	 0.018	 0.13	 0.30	 0.010	< 0.02																							 2.4				 1	 0.00	 0.079	 26.73				 79																													 7.0						
+USGS	403100105540000	2007-03-28	09:30			MDT	K	USGSCOWC	OB				 5.3	 -0.10			 0.045	 0.122		 0.61	 0.52	 0.176	 0.020	 0.295	 0.18	 51	 0.065	 0.47	 0.24	 0.056	 0.92																							 3.6				 2	 0.00	 0.058	 23.03	 -159	 -19.0		 70																													 6.5						
+USGS	403100105540000	2008-03-23	14:30			MDT	K	USGSCOWC	OB				 5.0	 -0.22			 0.049	 0.115		 0.73	 0.49	 0.180	 0.010	 0.145	 0.09	 36	 0.062	 0.24	 0.20	 0.021	 1.0																							 5.7				 1	 0.00	 0.063	 19.69	 -169	 -22.8		 66																													 7.9						
+USGS	403100105540000	2009-03-22	13:00			MDT	K	USGSCOWC	OB				 5.8	 -0.03			 0.066	 0.095		 0.68	 0.63	 0.220	 0.020	 0.121	 0.07	 27	 0.050	 0.15	 0.27	 0.113	 1.0																							 6.24		 0.28		 1	 0.00	 0.085	 19.69	 -142	 -16.6		 58																													 4.0						
+USGS	403100105540000	2010-03-26	10:00			MDT	K	USGSCOWC	OB				 5.2	 -0.29			 0.086	 0.136		 0.98	 0.55	 0.170	 0.030	 0.037	 0.02	 11	 0.090	 0.06	 0.27	< 0.005	 1.0																							 4.91				 1	 0.00	 0.111	 15.08	 -168	 -22.5		 56																													 5.5						
+USGS	403100105540000	2011-04-01	15:30			MDT	K	USGSCOWC	OB				 5.4	 -0.13			 0.046	 0.092		 1.05	 0.42	 0.138	 0.017	 0.055	 0.04	 19	 0.073	 0.07	 0.21	 0.006	 1.0																							 5.27				M 	 0.00	 0.059	 30.47	 -150	 -20.2		 93																													 3.8						
+USGS	403100105540000	2012-03-25	17:00			MDT	K	USGSCOWC	OB				 5.3	 0.5	 0.22		 0.089	 0.090		 0.7	 1.34	 0.45	 0.05	 0.18	 0.07	 21	 0.05	 0.185	 0.35																									 6.93				 2	 0.00	 0.115	 16.00	 -147	 -20.6		 52																													 5						
+USGS	403100105540000	2013-03-19	15:30			MDT	K	USGSCOWC	OB				 5.4	 -0.5	 0.16		 0.080	 0.100		 0.5	 0.61	 0.21	 0.02	 0.03	 0.02	 9	 0.04	 0.050	 0.22																									 5.60				M 	 0.00	 0.103	 17.56	 -164	 -22.1		 63																													 3						
+USGS	403100105540000	2014-03-23	14:45			MDT	K	USGSCOWC	OB				 5.8	 0.17	 0.16	 0.17	 0.075	 0.088		 0.43	 0.47	 0.16	 0.02	 0.044	 0.03	 15	 0.038	 0.040	 0.25																									 3.54				 1	 0.00	 0.097	 30.20	 -160	 -21.4		 94																													 3						
+USGS	403100105540000	2015-03-27	11:00			MDT	K	USGSCOWC	OB				 5.6	 0.11	 0.15		 0.082	 0.080		 0.68	 0.44	 0.141	 0.021	 0.044	 0.03	 15	 0.085	 0.05	 0.21	< 0.005	 0.79																							 5.98	 0.013		 1.9	 1	 0.00	 0.106	 23.62	 -144	 -19.8		 74																													 3.5				 10		
+USGS	403100105540000	2016-03-23	13:15			MDT	K	USGSCOWC	OB				 5.8	 0.20			 0.064	 0.074		 0.22	 0.44	 0.160	 0.010	 0.040	 0.03	 15	 0.039	 0.04	 0.16	< 0.005	 1.0																							 2.71	 0.011	 0.16	 5.0	M 	 0.00	 0.082	 21.65	 -160	 -21.3		 76																													 2.9						
+USGS	403100105540000	2017-03-22	11:45			MDT	K	USGSCOWC	OB				 5.4	 -0.14			 0.04	 0.055		 0.48	 0.24	 0.080	 0.010	 0.050	 0.04	 28	 0.029	 0.08	 0.14	< 0.005	< 0.02																							 3.96	 0.010	 0.15	 2.1	M 	 0.00	 0.047	 17.32	 -154	 -20.3		 49																													 2.7				 10		
+USGS	403100105540000	2018-03-26	12:30			MDT	K	USGSCOWC	OB				 6.0	 0.52			 0.08	 0.079		 0.70	 0.77	 0.259	 0.029	 0.189	 0.09	 33	 0.048	 0.24	 0.25	 0.048	 1.0																							 5.96		 0.22		 2	 0.00	 0.104	 21.70				 73																													 4.1				 30	 40247	

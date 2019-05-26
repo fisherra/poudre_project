@@ -1,0 +1,26 @@
+plan - 
+
+Goal: 
+Predict the timing of poudre river peak streamflow accurately
+
+Subgoal: 
+Predict the discharge
+Relate stream gages
+great narrative
+
+
+Find and clean dependent variables 
+
+Find and clean independent variables
+-relevant weather station data
+-pdsi / raster data 
+-previous year = fire?
+-previous year timing?
+
+Cleaning with Tableau Prep?
+Visualizations with Tableau
+Predictions with R
+
+
+
+

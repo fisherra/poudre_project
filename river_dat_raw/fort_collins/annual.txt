@@ -1,0 +1,83 @@
+#
+#
+# US Geological Survey, Water Resources Data
+# retrieved: 2019-05-26 16:20:45 EDT      (caww02)
+#
+# This file contains USGS Surface-Water Annual Statistics
+#
+# Note:The statistics generated from  this site are based on approved daily-mean data and may not match those published by the USGS in official publications.
+# The user is responsible for assessment and use of statistics from this site.
+# For more details on why the statistics may not match, visit https://waterdata.usgs.gov/nwis/?dv_statistics_disclaimer.
+#
+# ** No Incomplete data have been used for statistical calculation
+#
+# This file includes the following columns:
+#
+#
+# agency_cd  agency code
+# site_no    USGS site number
+# parameter_cd
+# ts_id
+# year_nu    Calendar year for value
+# mean_va    annual-mean value.
+#             if there is not complete record
+#             for a year this field is blank
+#
+#
+# Sites in this file include:
+# USGS 06752260 CACHE LA POUDRE RIVER AT FORT COLLINS, CO
+# 
+# Explanation of Parameter Code and ts_id used in the Statistics Data 
+# parameter_cd	Parameter Name					ts_id	Location Name
+# 00060		Discharge, cubic feet per second		17702	
+# 00095		Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius		17705	
+# There are Error with the following Site No-Parameter Codes
+# Complete years of daily mean data are not available for Site No=06752260, Parameter Code=00095 between 1989-01-01 and 1999-12-31. <br /> <br /> Incomplete years of data may be available and can be accessed by checking the "Use incomplete data for statistics calculation" option on the previous screen or by choosing different search criteria.
+#
+#
+agency_cd	site_no	parameter_cd	ts_id	year_nu	mean_va
+5s	15s	5s	3n	4s	12n
+USGS	06752260	00060	17702	1976	47.6
+USGS	06752260	00060	17702	1977	41.4
+USGS	06752260	00060	17702	1978	107.7
+USGS	06752260	00060	17702	1979	196.1
+USGS	06752260	00060	17702	1980	411.5
+USGS	06752260	00060	17702	1981	55.4
+USGS	06752260	00060	17702	1982	152.3
+USGS	06752260	00060	17702	1983	786.8
+USGS	06752260	00060	17702	1984	365.4
+USGS	06752260	00060	17702	1985	113.6
+USGS	06752260	00060	17702	1986	227.6
+USGS	06752260	00060	17702	1987	61.9
+USGS	06752260	00060	17702	1988	49.1
+USGS	06752260	00060	17702	1989	45.9
+USGS	06752260	00060	17702	1990	84.8
+USGS	06752260	00060	17702	1991	92.4
+USGS	06752260	00060	17702	1992	62.6
+USGS	06752260	00060	17702	1993	132.1
+USGS	06752260	00060	17702	1994	63.6
+USGS	06752260	00060	17702	1995	256.5
+USGS	06752260	00060	17702	1996	187.6
+USGS	06752260	00060	17702	1997	282.2
+USGS	06752260	00060	17702	1998	138.2
+USGS	06752260	00060	17702	1999	333.1
+USGS	06752260	00060	17702	2000	71.9
+USGS	06752260	00060	17702	2001	48.5
+USGS	06752260	00060	17702	2002	33.4
+USGS	06752260	00060	17702	2003	74.2
+USGS	06752260	00060	17702	2004	106.2
+USGS	06752260	00060	17702	2005	98.9
+USGS	06752260	00060	17702	2006	85.4
+USGS	06752260	00060	17702	2007	79.3
+USGS	06752260	00060	17702	2008	91.5
+USGS	06752260	00060	17702	2009	127.9
+USGS	06752260	00060	17702	2010	252.8
+USGS	06752260	00060	17702	2011	344.7
+USGS	06752260	00060	17702	2012	74.1
+USGS	06752260	00060	17702	2013	193.1
+USGS	06752260	00060	17702	2014	398.0
+USGS	06752260	00060	17702	2015	464.8
+USGS	06752260	00060	17702	2016	338.7
+USGS	06752260	00060	17702	2017	262.0
+USGS	06752260	00060	17702	2018	144.3
+
